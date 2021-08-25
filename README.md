@@ -1,1 +1,1 @@
-# js-movie-fight
+# JS Movie Fight
