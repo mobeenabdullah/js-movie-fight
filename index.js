@@ -48,6 +48,11 @@ const onInput = async e => {
             ${movie.Title}
         `;
 
+        movieOption.addEventListener('click', () => {
+            dropdown.classList.remove('is-active');
+            input.value = movie.Title;
+        });
+
         resultsWrapper.appendChild(movieOption);
     }
 
